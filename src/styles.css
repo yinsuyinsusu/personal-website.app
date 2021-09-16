@@ -105,3 +105,18 @@ p {
 a:hover {
   color: black;
 }
+
+@media (max-width: 576px) { 
+  h1, h2, h3{
+    font-size:20px;
+    text-align:center;
+  }
+  .small-photo{
+      display:none;
+  }
+  .container{
+    display: block;
+    margin: auto;
+    text-align:center;
+  }
+}
